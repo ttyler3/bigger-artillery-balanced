@@ -23,7 +23,7 @@ data:extend({
         order = "01",
         name = "bigger-artillery-mod-range-setting",
         setting_type = "startup",
-        default_value = 2800,
+        default_value = 410,
         minimum_value = 32,
         maximum_value = 21400000000
     },
@@ -33,7 +33,7 @@ data:extend({
         order = "02",
         name = "bigger-artillery-mod-rotation-speed-setting",
         setting_type = "startup",
-        default_value = 100,
+        default_value = 75,
         minimum_value = 1,
         maximum_value = 21400000000          
     },
@@ -43,7 +43,7 @@ data:extend({
         order = "03",
         name = "bigger-artillery-mod-shooting-speed-setting",
         setting_type = "startup",
-        default_value = 100,
+        default_value = 50,
         minimum_value = 1,
         maximum_value = 21400000000     
     },
@@ -62,7 +62,7 @@ data:extend({
         name = "bigger-artillery-mod-ammo-stack",
         setting_type = "startup",
         hidden = true,
-        default_value = 50,
+        default_value = 1,
         minimum_value = 1,
         maximum_value = 255     
     },
@@ -73,7 +73,7 @@ data:extend({
         name = "bigger-artillery-mod-inventory-stack",
         setting_type = "startup",
         hidden = true,
-        default_value = 5,
+        default_value = 1,
         minimum_value = 1,
         maximum_value = 255     
     }

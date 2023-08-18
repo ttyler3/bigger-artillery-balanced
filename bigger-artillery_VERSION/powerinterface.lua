@@ -12,7 +12,7 @@ powerinterface.collision_box = nil
 powerinterface.selection_priority=80
 powerinterface.selection_box = {{-1.5, -0.5}, {1.5, 2}}
 powerinterface.minable=nil
-powerinterface.icons={{icon="__bigger-artillery__/graphics/artillery-turret.png"}}
+powerinterface.icons={{icon="__bigger-artillery-balanced__/graphics/artillery-turret.png"}}
 powerinterface.picture=nil
 
 
