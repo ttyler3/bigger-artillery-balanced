@@ -1,3 +1,7 @@
+Version: 0.2.7
+   Changes:
+    - Re-forked from bigger artillery 0.5.8, project has its own Github
+---------------------------------------------------------------------------------------------------
 Version: 0.2.6
    Changes:
     - Updated German locale with original author's (@Mrxmem24)
