@@ -1,7 +1,7 @@
 local bertha = table.deepcopy(data.raw["item"]["artillery-turret"])
 bertha.name = "big-artillery-turret"
-bertha.icon = "__bigger-artillery__/graphics/artillery-turret.png"
-bertha.stack_size = 1
+bertha.icon = "__bigger-artillery-balanced__/graphics/artillery-turret.png"
+bertha.stack_size = 2
 bertha.place_result = "big-artillery-turret"
 
 
@@ -25,7 +25,7 @@ recipe.result = "big-artillery-turret"
 
 local tech = table.deepcopy(data.raw["technology"]["artillery"])
 tech.name = "big-artillery"
-tech.icon = "__bigger-artillery__/graphics/artillery.png"  
+tech.icon = "__bigger-artillery-balanced__/graphics/artillery.png"  
 tech.effects =
     {
       {
@@ -45,14 +45,14 @@ tech.unit =
         {"utility-science-pack", 1}
       },
       time = 30,
-      count = 2000
+      count = 4000
     }
 
 
 
 local gun = table.deepcopy(data.raw["gun"]["artillery-wagon-cannon"])
 gun.name = "big-artillery-wagon-cannon"
-gun.attack_parameters.projectile_creation_parameters= require("__bigger-artillery__/artillery-cannon-muzzle-flash-shifting")
+gun.attack_parameters.projectile_creation_parameters= require("__bigger-artillery-balanced__/artillery-cannon-muzzle-flash-shifting")
 
 data:extend{gun}
 
