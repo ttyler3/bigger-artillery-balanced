@@ -1,3 +1,7 @@
+Version: 0.2.8
+   Changes:
+    - Increased artillery ammo capacity from 1 to 3
+---------------------------------------------------------------------------------------------------
 Version: 0.2.7
    Changes:
     - Re-forked from bigger artillery 0.5.8, project has its own Github
