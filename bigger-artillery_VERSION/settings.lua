@@ -62,8 +62,8 @@ data:extend({
         name = "bigger-artillery-mod-ammo-stack",
         setting_type = "startup",
         hidden = true,
-        default_value = 1,
-        minimum_value = 1,
+        default_value = 3,
+        minimum_value = 3,
         maximum_value = 255     
     },
 
