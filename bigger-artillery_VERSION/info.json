@@ -1,11 +1,11 @@
 {
     "name":"bigger-artillery-balanced",
-    "version":"0.2.8",
+    "version":"0.2.9",
     "title":"Bigger Artillery (Balanced)",
     "author":"tntmasta",
     "contact": "Mod portal",
     "homepage": "https://github.com/ttyler3/bigger-artillery-balanced",
-    "description": "Vanilla-like adjustments to the bigger artillery mod. x2 range and stack size of 1 instead of x12.5 range and 20-50 stack size. Also changed the research cost from 2k to 4k and inventory stack size to 2. Credit to Mrxmen24 for the original.",
+    "description": "Vanilla-like adjustments to the bigger artillery mod. x2 range and stack size of 3 instead of x12.5 range and 20-50 stack size. Also changed the research cost from 2k to 4k and inventory stack size to 2. Credit to Mrxmen24 for the original.",
     "factorio_version": "1.1",
     "dependencies": ["base", "! bigger-artillery"]
 }
