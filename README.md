@@ -9,7 +9,7 @@
 - Manual and auto mode
 
 #### This fork changes the following:
-- Ammo stack size to 1
+- Ammo stack size to 3
 - Artillery stack to 2
 - Research cost to 4k
 - Range to x2 vanilla
